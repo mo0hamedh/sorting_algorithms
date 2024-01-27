@@ -10,7 +10,7 @@ void swap(int *xp, int *yp)
 {
 	size_t tmp = *xp;
 	*xp = *yp;
-	yp = tmp;
+	*yp = tmp;
 }
 /*
  * selection_sort - Implement Funtion That Create Selection Sort Alogrithm
