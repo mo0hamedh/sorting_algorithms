@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stdlib.h>
 /**
  * swap - Function That Swapped Array Element
  * @xp: First Position
