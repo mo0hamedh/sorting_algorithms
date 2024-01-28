@@ -2,23 +2,24 @@
 #include <stdlib.h>
 /**
  * swap - Function That Swapped Array Element
- *@xp: First Position
- *@yp: Second Position
- *Return: void
-*/
+ * @xp: First Position
+ * @yp: Second Position
+ *
+ * Return: void
+ */
 void swap(int *xp, int *yp)
 {
 	size_t tmp = *xp;
 	*xp = *yp;
 	*yp = tmp;
 }
-/*
+/**
  * selection_sort - Implement Funtion That Create Selection Sort Alogrithm
  * @array: The Array To Sorted
  * @size: The Size Of An Array
  *
  * Return: void
-*/
+ */
 void selection_sort(int *array, size_t size)
 {
 size_t i, j, minIDX;
